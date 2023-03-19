@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const app = express();
 const multer = require('multer');
 const bodyParser = require('body-parser');
-mongoose.connect('mongodb://localhost:27017/shopyfy');
+mongoose.connect('mongodb://127.0.0.1:27017/shopyfy');
 const path = require('path');
 const imgModel = require('./models/imageschema');
 const cartsModel = require('./models/carts');
